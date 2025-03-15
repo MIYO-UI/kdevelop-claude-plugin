@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name="kdevclaudepluginrc"/>
+  <group name="ClaudePlugin">
+    <entry name="ApiKey" type="String">
+      <label>API Key for Claude</label>
+      <default></default>
+    </entry>
+    <entry name="ModelName" type="String">
+      <label>Claude model name</label>
+      <default>claude-3-opus-20240229</default>
+    </entry>
+    <entry name="AutoSendSelection" type="Bool">
+      <label>Automatically send selected text</label>
+      <default>false</default>
+    </entry>
+    <entry name="InsertResponseAtCursor" type="Bool">
+      <label>Insert response at cursor position</label>
+      <default>false</default>
+    </entry>
+  </group>
+</kcfg>
