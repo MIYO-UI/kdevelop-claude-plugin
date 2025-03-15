@@ -1,0 +1,22 @@
+{
+    "KPlugin": {
+        "Id": "kdevclaudeplugin",
+        "Name": "Claude AI Assistant",
+        "Category": "Utilities",
+        "Description": "Provides integration with Claude AI assistant with Google account login",
+        "Icon": "code-class",
+        "Authors": [
+            {
+                "Name": "Your Name",
+                "Email": "your.email@example.com"
+            }
+        ],
+        "License": "GPL",
+        "Version": "0.1.0"
+    },
+    "KDevelop": {
+        "Category": "Global",
+        "Mode": "GUI",
+        "X-KDevelop-Version": "5.0"
+    }
+}
